@@ -26,7 +26,3 @@ task zip(type: Zip) {
 
 mybuild.dependsOn zip
 zip.dependsOn npm_build
-mybuild.dependsOn npm_build
-npm_build.dependsOn npmInstall
-//npm_build.dependsOn npm_test
-//npm_test.dependsOn npmInstall
